@@ -61,7 +61,7 @@ loop — Number of animation loops
 n = repeat n times
 
 
-- Customization Ideas
+-- Customization Ideas
 
 Automatically load frames using glob
 
