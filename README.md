@@ -5,7 +5,7 @@ A minimal Python utility that converts a sequence of PNG sprite frames into an a
 This project is designed for simplicity and clarity, making it ideal for quick animation previews, asset prototyping, and lightweight tooling in game development workflows.
 
 
-Features
+-Features
 
 Converts multiple PNG frames into a single animated GIF
 
@@ -17,7 +17,7 @@ Lightweight and dependency-minimal
 
 Clean, readable implementation
 
-Usage
+-Usage
 
 
 Place your sprite PNG files in the same directory as create_gif.py.
@@ -35,7 +35,7 @@ x.gif
 in the current directory.
 
 
-How It Works
+-How It Works
 
 The script:
 
@@ -48,7 +48,7 @@ Reads each image into memory
 Writes the images as an animated GIF using:
 
 
-Parameters
+-Parameters
 
 duration — Frame delay (in milliseconds)
 
@@ -61,7 +61,7 @@ loop — Number of animation loops
 n = repeat n times
 
 
-🛠 Customization Ideas
+-Customization Ideas
 
 Automatically load frames using glob
 
@@ -80,7 +80,7 @@ Support additional formats (JPG, WebP, etc.)
 Convert directly from sprite sheets
 
 
-Use Cases
+-Use Cases
 
 Game development prototyping
 
