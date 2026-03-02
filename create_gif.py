@@ -14,10 +14,10 @@ for filename in filenames:
         Path to the image file to be loaded.
         The image data is appended directly to the `images` list.
     """
-
     images.append(iio.imread(filename))
 
-    """
+
+"""
     Write the collected frames to an animated GIF file.
     Output file path for the generated GIF.
         images : list
@@ -28,6 +28,5 @@ for filename in filenames:
     Number of times the GIF should loop.
         0 means infinite looping.
     The GIF file is written to disk.
-    """
-
+"""
 iio.imwrite('', images, duration = 70, loop = 0)
